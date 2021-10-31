@@ -2,5 +2,6 @@
 <CodeBlocks_workspace_file>
 	<Workspace title="DataStructure">
 		<Project filename="Stack/Stack.cbp" />
+		<Project filename="StackApp_1/StackApp_1.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>

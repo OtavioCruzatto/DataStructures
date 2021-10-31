@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1635695478 source:c:\users\otavio\documents\desenv\sw\c\datastructure\stackapp_1\stack.c
+	"stack.h"
+
+1635718718 c:\users\otavio\documents\desenv\sw\c\datastructure\stackapp_1\stack.h
+	"main.h"
+
+1635718683 c:\users\otavio\documents\desenv\sw\c\datastructure\stackapp_1\main.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+	"stack.h"
+
+1635717881 source:c:\users\otavio\documents\desenv\sw\c\datastructure\stackapp_1\main.c
+	"main.h"
+
