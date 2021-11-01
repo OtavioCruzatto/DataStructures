@@ -75,10 +75,10 @@ void push(Stack S, Item item)
  * \name pop
  * \brief Removes and returns the item at the top of the stack.
  * \param S The pointer to a stack to be poped.
- * \example int itemAtTheTop = pop(Stack);
+ * \example Item itemAtTheTop = pop(Stack);
  * \return stackTopItem The item at the top of the stack.
  */
-int pop(Stack S)
+Item pop(Stack S)
 {
     if (isEmpty(S))
     {
@@ -87,7 +87,7 @@ int pop(Stack S)
     }
     else
     {
-        int stackTopItem = S->items[S->top];
+        Item stackTopItem = S->items[S->top];
         S->top--;
         return stackTopItem;
     }
@@ -97,10 +97,10 @@ int pop(Stack S)
  * \name peek
  * \brief Returns the item at the top of the stack.
  * \param S The pointer to a stack to be verified.
- * \example int itemAtTheTop = top(Stack);
+ * \example Item itemAtTheTop = top(Stack);
  * \return The item at the top of the stack.
  */
-int peek(Stack S)
+Item peek(Stack S)
 {
     if (isEmpty(S))
     {
